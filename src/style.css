@@ -16,12 +16,12 @@ body, html {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888888; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555555; 
 }
 .bp3-transition-container{
   width: 50%;
@@ -31,4 +31,55 @@ body, html {
 }
 .bp3-popover.bp3-minimal.bp3-popover{
   width: 100%;
+}
+.bp3-icon-blank {
+  /* display: none; */
+}
+.bp3-menu-item{
+  padding: 10px;
+}
+.bp3-menu-item.bp3-intent-primary.bp3-active{
+  background-color: #ffffff;
+  color: #111111;
+  font-size: 16px;
+}
+.bp3-menu-item.bp3-intent-primary.bp3-active:hover{
+  background-color: #903F8E;
+  color: #ffffff;
+}
+.bp3-menu{
+  padding: 0;
+}
+.bp3-menu li{
+  font-size: 16px;
+  color: #111111;
+}
+.bp3-menu li a:hover{
+  background-color: #903F8E;
+  color: #ffffff;
+}
+.bp3-menu li .bp3-menu-item-label{
+  font-size: 16px;
+  color: #111111;
+}
+.bp3-menu-item.bp3-intent-primary.bp3-active .bp3-menu-item-label{
+  color: #111111;
+}
+.bp3-menu-item.bp3-intent-primary.bp3-active:hover .bp3-menu-item-label{
+  color: #ffffff;
+}
+.bp3-menu-item::before, .bp3-menu-item > .bp3-icon{
+  color: #111111;
+}
+.bp3-menu-item::before, .bp3-menu-item:hover > .bp3-icon{
+  color: #ffffff;
+}
+.bp3-menu-item::before, .bp3-menu-item:hover > .bp3-menu-item-label{
+  color: #ffffff;
+}
+.bp3-button.bp3-minimal:hover{
+    background: #ffffff;
+    color: #111111;
+    transform: rotate(90deg);
+    transition: width 2s, height 2s, transform 2s;
 }

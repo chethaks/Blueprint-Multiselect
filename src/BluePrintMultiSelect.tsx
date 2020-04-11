@@ -25,9 +25,11 @@ const Wrapper = styled.div`
             .bp3-tag-input{
                 padding: 7px 10px;
                 .bp3-tag{
-                    background-color: palevioletred;
+                    background-color: #28a745;
                     padding: 7px;
                     font-weight: bold;
+                    text-transform: uppercase;
+                    font-size: 10px;
                 }
             }
         }
